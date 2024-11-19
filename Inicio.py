@@ -51,8 +51,8 @@ if uploaded_file is not None:
         
         # Renombrar columnas para simplificar
         column_mapping = {
-            'temperatura {device="ESP32", name="Sensor 1"}': 'temperatura',
-            'humedad {device="ESP32", name="Sensor 1"}': 'humedad'
+            'temperatura {device="ESP32", name="Sensor_TH"}': 'temperatura',
+            'humedad {device="ESP32", name="Sensor_TH"}': 'humedad'
         }
         df1 = df1.rename(columns=column_mapping)
         
